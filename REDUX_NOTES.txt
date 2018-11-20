@@ -1,0 +1,20 @@
+ Redux : Predictable state container for JS
+
+ Every app -> think about what the data contained in the application is separately from what the view of the application is
+
+ Redux -> data contained in the application -> Collection of all data that describes the app
+ React -> View in the application
+
+ In Redux, we centralize all of the application data inside a single object which we refer to as a state. This state is not component level state like in React. This is application level state.
+ The other alternatives do not have the above (Angular, Flux)
+
+
+ Counter Application :
+
+ plus button      minus button
+
+            Current Count : n
+
+
+Data contained : Current Count
+React: Current Count Display, NumberChanger
